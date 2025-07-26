@@ -2,6 +2,7 @@ import { Link, NavLink } from 'react-router-dom';
 import { assets } from '../assets/assets';
 import { useContext, useState } from 'react';
 import { ShopContext } from '../Context/ShopContext';
+import img from '../assets/img.png';
 
 const Navbar = () => {
   const [visible, setVisible] = useState(false);
@@ -11,7 +12,9 @@ const Navbar = () => {
     <>
       <div className="flex items-center justify-between py-5 font-medium relative px-4">
         <Link to="/">
-          <img src={assets.logo} alt="logo" className="w-36" />
+          <div className="overflow-hidden h-20 flex items-center">
+  <img src={img} alt="logo" className="object-contain" />
+</div>
         </Link>
 
         <ul className="hidden sm:flex gap-5 text-sm text-gray-700">

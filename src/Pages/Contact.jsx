@@ -26,19 +26,20 @@ const Contact = () => {
         <div className="flex flex-col justify-center items-start gap-4">
           <p className="font-semibold text-altext-gray-600">Our Store</p>
           <p className="text-gray-500">
-            7298 King Lodge
-            <br />
-            North Elton, Illinois 78154
+            456 Elm Street,
+Apt 7B, Downtown,
+San Francisco, CA 94107
+USA
           </p>
 
           <p className="text-gray-800">
-            Tel: <span className="text-gray-500">+1 800 123 1234</span>
+            Tel: <span className="text-gray-500">+1 809 123 1234</span>
           </p>
           <p className=" text-gray-800">
-            Email: <span className="text-gray-500">admin@forever.com</span>
+            Email: <span className="text-gray-500">admin@attiro.com</span>
           </p>
 
-          <p className="text-gray-500">Careers at Forever</p>
+          <p className="text-gray-500">Careers at Attiro</p>
           <p className="text-gray-500">
             Learn more about our teams and job openings.
           </p>
