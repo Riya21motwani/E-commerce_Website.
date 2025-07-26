@@ -3,8 +3,9 @@ import './App.css';
 import Home from './Pages/Home';
 import Collection from './Pages/Collection';
 
-import About from './Pages/About';
+
 import Contact from './Pages/Contact';
+import About from './Pages/About';
 import Product from './Pages/Product';
 import Cart from './Pages/Cart';
 import Login from './Pages/Login';
